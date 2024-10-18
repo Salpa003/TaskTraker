@@ -19,9 +19,7 @@ public class Task {
     }
 
     public Task(String name) {
-        this.name = name;
-        status = TaskStatus.NEW;
-        ID = hashCode();
+      this(name,null);
     }
 
     public String getName() {
